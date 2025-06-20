@@ -2,8 +2,9 @@
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/VioletSoul/sorting-algorithms.svg?style=social)](https://github.com/VioletSoul/sorting-algorithms)
-[![Last Commit](https://img.shields.io/github/last-commit/VioletSoul/sorting-algorithms.svg)](https://github.com/VioletSoul/sorting-algorithms/commits/main)
+[![Stars](https://img.shields.io/github/stars/VioletSoul/SortMethods.svg?style=social)](https://github.com/VioletSoul/SortMethods)
+[![Last Commit](https://img.shields.io/github/last-commit/VioletSoul/SortMethods.svg)](https://github.com/VioletSoul/SortMethods/commits/main)
+
 ---
 
 ## 📚 Описание
@@ -87,7 +88,8 @@
 
 ## 🤝 Контакты
 
-- GitHub Issues: [Оставить вопрос](https://github.com/VioletSoul/sorting-algorithms/issues)
+- GitHub: [VioletSoul](https://github.com/VioletSoul)
+- GitHub Issues: [Оставить вопрос](https://github.com/VioletSoul/SortMethods/issues)
 
 ---
 
