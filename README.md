@@ -7,89 +7,85 @@
 
 ---
 
-## 📚 Описание
+## 📚 Description
 
-**Этот репозиторий содержит коллекцию классических и современных алгоритмов сортировки, реализованных на Python.**  
-Каждый алгоритм снабжён кратким описанием и примером использования.  
-Подойдёт для обучения, собеседований, а также для быстрой интеграции в проекты.
-
----
-
-## 🚀 Список реализованных алгоритмов
-
-- Пузырьковая сортировка (Bubble Sort)
-- Сортировка выбором (Selection Sort)
-- Сортировка вставками (Insertion Sort)
-- Сортировка слиянием (Merge Sort)
-- Быстрая сортировка (Quick Sort)
-- Пирамидальная сортировка (Heap Sort)
-- Шейкерная сортировка (Cocktail Sort)
-- Сортировка расчёской (Comb Sort)
-- Сортировка подсчётом (Counting Sort)
-- Поразрядная сортировка (Radix Sort)
-- Сортировка Шелла (Shell Sort)
-- Сортировка вставками с двоичным поиском (Binary Insertion Sort)
-- Timsort (встроенный в Python: `sorted()` и `list.sort()`)
+**This repository contains a collection of classical and modern sorting algorithms implemented in Python.**  
+Each algorithm comes with a brief description and usage example.  
+Suitable for learning, interviews, and quick integration into your projects.
 
 ---
 
-## 📦 Как использовать
+## 🚀 Implemented Algorithms
 
-1. Клонируйте репозиторий:
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Cocktail Sort
+- Comb Sort
+- Counting Sort
+- Radix Sort
+- Shell Sort
+- Binary Insertion Sort
+- Timsort (built-in in Python: `sorted()` and `list.sort()`)
+
+---
+
+## 📦 How to Use
+
+1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/sorting-algorithms.git
+    git clone https://github.com/VioletSoul/SortMethods.git
     ```
-2. Импортируйте нужный алгоритм в свой проект или изучайте примеры в файлах.
+2. Import the required algorithm into your project or explore the examples in the files.
 
 ---
 
+## 🏷️ Algorithms Overview
+
+| Algorithm             | Avg. Complexity | Stable | Description                                             |
+|-----------------------|:---------------:|:------:|--------------------------------------------------------|
+| Bubble Sort           | O(n²)           | ✅     | Simple, educational, rarely used in practice           |
+| Selection Sort        | O(n²)           | ❌     | Minimum swaps, not stable                              |
+| Insertion Sort        | O(n²)           | ✅     | Good for nearly sorted arrays                          |
+| Merge Sort            | O(n log n)      | ✅     | Divide and merge, requires extra memory                |
+| Quick Sort            | O(n log n)      | ❌     | Fast, but not stable                                   |
+| Heap Sort             | O(n log n)      | ❌     | Heap-based, not stable                                 |
+| Cocktail Sort         | O(n²)           | ✅     | Improved bubble sort, bidirectional                    |
+| Comb Sort             | O(n²)           | ❌     | Faster than bubble, reduces "turtles"                  |
+| Counting Sort         | O(n + k)        | ✅     | For integers in a limited range                        |
+| Radix Sort            | O(nk)           | ✅     | Digit by digit, for numbers/strings                    |
+| Shell Sort            | O(n log n)      | ❌     | Improved insertion, depends on gap sequence            |
+| Binary Insertion Sort | O(n²)           | ✅     | Insertion with binary search                           |
+| Timsort               | O(n log n)      | ✅     | Python built-in, hybrid algorithm                      |
 
 ---
 
-## 🏷️ Описание алгоритмов
+## 💡 Notes
 
-| Алгоритм                    | Сложность (средняя) | Стабильность | Описание                                      |
-|-----------------------------|:------------------:|:------------:|-----------------------------------------------|
-| Bubble Sort                 | O(n²)              | ✅           | Простой, обучающий, редко используется на практике |
-| Selection Sort              | O(n²)              | ❌           | Минимум обменов, не стабилен                  |
-| Insertion Sort              | O(n²)              | ✅           | Хорош для почти отсортированных массивов       |
-| Merge Sort                  | O(n log n)         | ✅           | Делит и сливает, требует доп. память           |
-| Quick Sort                  | O(n log n)         | ❌           | Быстрый, но не стабилен                        |
-| Heap Sort                   | O(n log n)         | ❌           | На куче, не стабилен                           |
-| Cocktail Sort               | O(n²)              | ✅           | Улучшенная пузырьковая, двунаправленная        |
-| Comb Sort                   | O(n²)              | ❌           | Быстрее пузырьковой, уменьшает "черепах"       |
-| Counting Sort               | O(n + k)           | ✅           | Для целых чисел ограниченного диапазона        |
-| Radix Sort                  | O(nk)              | ✅           | Поразрядная, для чисел/строк                   |
-| Shell Sort                  | O(n log n)         | ❌           | Улучшение вставками, зависит от шага           |
-| Binary Insertion Sort       | O(n²)              | ✅           | Вставки с двоичным поиском                     |
-| Timsort                     | O(n log n)         | ✅           | Встроенный в Python, гибридный                 |
+- For most tasks, it is recommended to use Python's built-in methods: `sorted()` and `list.sort()`, which implement Timsort.
+- The implementations are for educational purposes and may not be optimal for large datasets.
+- All examples are tested on Python 3.7+.
 
 ---
 
-## 💡 Примечания
+## 📄 License
 
-- Для большинства задач рекомендуется использовать встроенные методы Python: `sorted()` и `list.sort()`, реализующие Timsort.
-- Реализации написаны для образовательных целей и могут быть не оптимальны для больших данных.
-- Все примеры протестированы на Python 3.7+.
+This project is distributed under the MIT License.
 
 ---
 
-## 📄 Лицензия
+## ⭐️ Support
 
-Этот проект распространяется под лицензией [MIT](LICENSE).
-
----
-
-## ⭐️ Поддержите проект
-
-Если репозиторий был полезен — поставьте ⭐️ и сделайте fork!
+If you found this repository useful — please star ⭐️ and fork it!
 
 ---
 
-## 🤝 Контакты
+## 🤝 Contacts
 
 - GitHub: [VioletSoul](https://github.com/VioletSoul)
-- GitHub Issues: [Оставить вопрос](https://github.com/VioletSoul/SortMethods/issues)
+- GitHub Issues: [Ask a question](https://github.com/VioletSoul/SortMethods/issues)
 
 ---
-
