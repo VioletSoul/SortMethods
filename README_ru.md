@@ -2,6 +2,8 @@
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![Repo Size](https://img.shields.io/github/repo-size/VioletSoul/SortMethods)
+![Code Size](https://img.shields.io/github/languages/code-size/VioletSoul/SortMethods)
 [![Stars](https://img.shields.io/github/stars/VioletSoul/SortMethods.svg?style=social)](https://github.com/VioletSoul/SortMethods)
 [![Last Commit](https://img.shields.io/github/last-commit/VioletSoul/SortMethods.svg)](https://github.com/VioletSoul/SortMethods/commits/main)
 
